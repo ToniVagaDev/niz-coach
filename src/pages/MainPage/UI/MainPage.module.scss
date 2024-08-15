@@ -1,0 +1,63 @@
+.MainPage{
+  height: 100vh;
+  display: grid;
+  position: relative;
+  background-image: url(../../../shared/assets/niz_training.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1{
+    height: min-content;
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 3em;
+    line-height: 72px;
+  }
+}
+
+.title{
+  position: relative;
+  width: 40%;
+  // height: calc(100% - 200px);
+  left: 10%;
+  // top: 200px;
+  align-self: center;
+}
+
+.img_wrapper{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  align-self: center;
+  aspect-ratio: 2 / 1;
+  justify-self: end;
+  border-radius: 50%;
+  background: linear-gradient(to right, red, orange);
+  right: 10%;
+}
+
+.coach_img{
+  position: relative;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  scale: 0.98;
+}
+.img_wrapper::after{
+  content: 'Низамов Тимур Минасхатович';
+  display: block;
+  margin-top: 25px;
+  position: relative;
+  width: 500px;
+  color: whitesmoke;
+  font-size: 2em;
+  justify-self: center;
+  text-align: center;
+}
+
+.description{
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+
+
